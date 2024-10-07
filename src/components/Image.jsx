@@ -7,7 +7,7 @@ const Image = () => {
     return (
        <>
      <section>
-        <img src={Img} alt="" className=""/>
+        <img src={Img} alt="" className="mt-6"/>
      </section>
        
        </>

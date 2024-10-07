@@ -16,6 +16,7 @@ import Img5 from "../assets/Rectangle 29.png"
 import Img6 from "../assets/Rectangle 30.png"
 import Img7 from "../assets/Rectangle 31.png"
 import Footer from "./Footer";
+import Image from "./Image";
 
 
 const AboutUs = () => {
@@ -142,6 +143,8 @@ const AboutUs = () => {
 
                 </div>
             </section>
+
+            <Image/>
 
             <Footer/>
 

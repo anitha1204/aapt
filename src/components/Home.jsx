@@ -7,6 +7,7 @@ import qualityPolicyImg from '../assets/Guarantee.png';
 import shippedProjectsImg from '../assets/Group of Projects.png';
 import bestTechniciansImg from '../assets/Plumber.png';
 import Footer from "./Footer";
+import Image from "./Image";
 
 import image from "../assets/Factory.png"
 import image1 from "../assets/Expo.png"
@@ -156,6 +157,8 @@ const Home = () => {
                 </div>
             </section>
             {/* ----------------------------------------- */}
+
+            <Image/>
 
             <Footer />
         </>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import Image from './Image';
 
 import image from "../assets/Factory.png"
 import image1 from "../assets/Expo.png"
@@ -68,6 +69,7 @@ export default function Gallery() {
                     </button>
                 </div>
             </div>
+            <Image/>
 
             <Footer />
         </>

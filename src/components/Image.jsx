@@ -1,22 +1,15 @@
 import React from "react";
-import Img from "../assets/Screenshot 2024-02-15 235353 1.png";
 
 const Image = () => {
-    
-  
-    return (
-       <>
-     <section>
-        <img src={Img} alt="" className="mt-6"/>
-     </section>
-       
-       </>
-    );
+  return (
+    <>
+      <div className="text-center py-4 ">
+        <marquee behavior="scroll" direction="left" scrollamount="5" className="text-xl text-gray-800">
+          Europe &nbsp;  &nbsp; Europe &nbsp;  &nbsp; Europe &nbsp;  &nbsp; Europe &nbsp;  &nbsp; Europe
+        </marquee>
+      </div>
+    </>
+  );
 };
 
 export default Image;
-
-
-
-
-

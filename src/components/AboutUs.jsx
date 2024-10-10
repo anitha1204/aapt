@@ -39,8 +39,12 @@ const AboutUs = () => {
                 <div className=" w-full lg:w-3/4 space-y-4 mb-10">
                     <h1 className=" text-2xl font-semibold text-center lg:text-start">Aapt Distribution</h1>
                     <p className=" text-justify lg:text-start mt-8 ">
-                        Aapt is incorporated as PVT in Chennai starter September 2003 and <br /> comes under 2 star export house category and one of the top granite
-                        exporting companies in India. Exports granite blocks, slabs., artificial  <br /> stones like ceramic, marble, tiles so on..
+                    Established in 2003 Aapt is a leading name in Building material  Business. Aapt means trust worthy in Sanskrit (an ancient 
+                        Indian language).<br /> Everything we do is to live upto this name.We are accredited with 2 start export house status by Ministry of 
+                        commerce Govt of India for our contribution in Nation’s foreign trade. <br />  We have been give “ 1” rating by CIBIL for our credit 
+                        worthiness which is the best Ranking for the financial performance /well being of corporates. <br/>We ship our Goods to more than 
+                        25 countries across the world and we earned good will of more than 60 clients spanning across 6 continents. <br/>we have 
+                        invested on State of the art plan and machineries for processing Granite slabs, Monuments an countertops and sculptures.
                     </p>
                     <p className=" text-justify lg:text-start mt-8">
                         Our business grown steadily since then. It got large presents at Europe,<br />Latina America, Africa and soy th Asian countries.
@@ -81,53 +85,53 @@ const AboutUs = () => {
 
             <section>
                 <h2 className="text-center text-[32px] md:text-[50px] mb-14 lg:mt-16 mt-10">Awards & Certificate</h2>
-                <div className="flex flex-col md:flex-row justify-center gap-6"> {/* Use flex for inline items, column on small screens */}
-                    <img src={Img1} alt="Award or Certificate 1" className="w-full md:w-auto h-auto max-w-[450px]" /> {/* Full width, adjust max width */}
-                    <img src={Img} alt="Award or Certificate 2" className="w-full md:w-auto h-auto max-w-[450px]" /> {/* Full width, adjust max width */}
+                <div className="flex flex-col md:flex-row justify-center gap-6"> 
+                    <img src={Img1} alt="Award or Certificate 1" className="w-full md:w-auto h-auto max-w-[450px]" /> 
+                    <img src={Img} alt="Award or Certificate 2" className="w-full md:w-auto h-auto max-w-[450px]" />
                 </div>
             </section>
             {/* ------------------------ */}
 
             <section>
                 <div className="border border-gray-500 mb-0 lg:mt-28 mt-10"></div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center lg:mt-28 mt-10 lg:m-20 m-4"> {/* Responsive grid layout */}
-                    <img src={Img2} alt="" className="w-full h-auto" /> {/* Responsive image */}
-                    <img src={Img3} alt="" className="w-full h-auto" /> {/* Responsive image */}
-                    <img src={Img4} alt="" className="w-full h-auto" /> {/* Responsive image */}
-                    <img src={Img5} alt="" className="w-full h-auto" /> {/* Responsive image */}
-                    <img src={Img6} alt="" className="w-full h-auto" /> {/* Responsive image */}
-                    <img src={Img7} alt="" className="w-full h-auto" /> {/* Responsive image */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center lg:mt-28 mt-10 lg:m-20 m-4"> 
+                    <img src={Img2} alt="" className="w-full h-auto" /> 
+                    <img src={Img3} alt="" className="w-full h-auto" />
+                    <img src={Img4} alt="" className="w-full h-auto" /> 
+                    <img src={Img5} alt="" className="w-full h-auto" /> 
+                    <img src={Img6} alt="" className="w-full h-auto" /> 
+                    <img src={Img7} alt="" className="w-full h-auto" /> 
                 </div>
             </section>
 
             {/* ---------------------------- */}
 
-            <section className="bg-gray-100 py-28 mt-10">
+            <section className="bg-gray-100 py-20 mt-10">
                 <div className="container ">
 
                     {/* Stats Section */}
-                    <div className="grid grid-cols-1 md:grid-cols-4 mb-12">
-                        {/* Stat 1 */}
+                    {/* <div className="grid grid-cols-1 md:grid-cols-4 mb-12">
+                        
                         <div className="text-center">
                             <h2 className="lg:text-5xl text-3xl ">1000+</h2>
                             <p className="mt-2 ">Clients</p>
                         </div>
-                        {/* Stat 2 */}
+                        
                         <div className="text-center">
                             <h2 className="lg:text-5xl  text-3xl">620+</h2>
                             <p className="mt-2">Active Clients</p>
                         </div>
-                        {/* Stat 3 */}
+                        
                         <div className="text-center">
                             <h2 className="lg:text-5xl  text-3xl ">35+</h2>
                             <p className="mt-2 ">Quartz + Granite </p>
                         </div>
-                        {/* Stat 4 */}
+                       
                         <div className="text-center">
                             <h2 className="lg:text-5xl  text-3xl ">1000+</h2>
                             <p className="mt-2">Happy Clients</p>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* CTA Section */}
                     <div className="mt-12 mx-4 md:mx-20">

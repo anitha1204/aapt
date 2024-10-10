@@ -130,17 +130,22 @@ export default function ContactUs() {
         </div>
       </div>
   
+      <div className="text-center py-4 ">
+        <marquee behavior="scroll" direction="left" scrollamount="5" className="text-xl text-gray-800">
+          Europe &nbsp;  &nbsp; Europe &nbsp;  &nbsp; Europe &nbsp;  &nbsp; Europe &nbsp;  &nbsp; Europe
+        </marquee>
+      </div>
 
     </div>
     
 
-    <footer className="bg-gray-900 text-white py-1 lg:h-[200px] lg:rounded-b-[60px]">
+    {/* <footer className="bg-gray-900 text-white py-1 lg:h-[200px] lg:rounded-b-[60px]">
     <div className="container mx-auto px-4 lg:px-2">
-        {/* Grid layout for the footer */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-y-8 lg:mt-10 md:mt-10">
             
-            {/* Center Section */}
-            <div className="my-4 lg:my-0 lg:mt-10 text-center lg:mr-40"> {/* Centered text */}
+            
+            <div className="my-4 lg:my-0 lg:mt-10 text-center lg:mr-40"> 
                 <div className="mt-4 text-white text-xs">
                     <p>
                         <a href="#" className="hover:text-white mx-2">Home</a> |
@@ -154,8 +159,8 @@ export default function ContactUs() {
                 </div>
             </div>
 
-            {/* Right Section */}
-            <div className="text-sm text-center lg:ml-96"> {/* Centered on mobile, right-aligned on larger screens */}
+          
+            <div className="text-sm text-center lg:ml-96">
                 <p className='mt-2'>Facebook: Aaptgranites</p>
                 <p className='mt-4'>YouTube: @aapt_granites</p>
                 <p className='mt-4'>Instagram: aapt_granites</p>
@@ -163,8 +168,10 @@ export default function ContactUs() {
             </div>
         </div>
     </div>
-</footer>
+    </footer> */}
 
+
+     <Footer/>
     </>
 
     

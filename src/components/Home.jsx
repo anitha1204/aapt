@@ -46,9 +46,7 @@ const Home = () => {
                 {/* Right Section - Description */}
                 <div className="flex items-center">
                     <p className="text-[14px] md:text-[16px] lg:text-[14px] leading-relaxed">
-                        We offer profound, specialised advice within the areas of shipping & trading, insurance & reinsurance, and dispute resolution. We are dedicated to serving
-                        our clients with comprehensive assistance of the highest quality. We will make
-                        you feel in good company.
+                    AAPT are amongst the largest exporters in India in Stone products specifically granite blocks and products. We are amongst the few india who offer complete spectrucm of Granite products such as Blocks, slabs, Tiles, Monuments and countertops.
                     </p>
                 </div>
             </section>
@@ -95,7 +93,7 @@ const Home = () => {
                 <div className="relative mb-10">
                     <div className="border border-gray-500 mb-0"></div>
                     <button className="bg-red-600 text-white h-12 w-48 text-2xl absolute left-[145px] transform -translate-x-1/2 -top-0">
-                        Gallery
+                        Video
                     </button>
                 </div>
 
@@ -115,32 +113,10 @@ const Home = () => {
 
             {/* -------------------------------------------     */}
 
-            <section className="bg-gray-100 py-28 mt-10">
+            <section className="bg-gray-100 py-20 mt-10">
                 <div className="container ">
 
-                    {/* Stats Section */}
-                    <div className="grid grid-cols-1 md:grid-cols-4 mb-12">
-                        {/* Stat 1 */}
-                        <div className="text-center">
-                            <h2 className="lg:text-5xl text-3xl ">1000+</h2>
-                            <p className="mt-2 ">Clients</p>
-                        </div>
-                        {/* Stat 2 */}
-                        <div className="text-center">
-                            <h2 className="lg:text-5xl  text-3xl">620+</h2>
-                            <p className="mt-2">Active Clients</p>
-                        </div>
-                        {/* Stat 3 */}
-                        <div className="text-center">
-                            <h2 className="lg:text-5xl  text-3xl ">35+</h2>
-                            <p className="mt-2 ">Quartz + Granite </p>
-                        </div>
-                        {/* Stat 4 */}
-                        <div className="text-center">
-                            <h2 className="lg:text-5xl  text-3xl ">1000+</h2>
-                            <p className="mt-2">Happy Clients</p>
-                        </div>
-                    </div>
+                    
 
                     {/* CTA Section */}
                     <div className="mt-12 mx-4 md:mx-20">

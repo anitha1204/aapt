@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <div className="container mx-auto px-4 lg:px-2">
                 {/* Grid layout for the footer */}
                 <div className="grid grid-cols-1 md:grid-cols-[400px_600px_400px] justify-items-center gap-y-8 lg:mt-10 md:mt-10">
-                    
+
                     {/* Left Section */}
                     <div className="text-sm text-center md:text-left">
                         <p>Aapt Distribution Pvt Ltd</p>
@@ -38,17 +39,33 @@ const Footer = () => {
                                 <a href="#" className="hover:text-white mx-2">Blog</a> |
                                 <a href="#" className="hover:text-white mx-2">Gallery</a> |
                                 <a href="#" className="hover:text-white mx-2">Download</a> |
+                                <a href="#" className="hover:text-white mx-2">Resources</a> |
                                 <a href="#" className="hover:text-white mx-2">Contact us</a>
                             </p>
                         </div>
                     </div>
 
-                    {/* Right Section */}
+                    {/* Right Section with Icons */}
                     <div className="text-sm text-center md:text-right">
-                        <p className='mt-2'>Facebook: Aaptgranites</p>
-                        <p className='mt-4'>YouTube: @aapt_granites</p>
-                        <p className='mt-4'>Instagram: aapt_granites</p>
-                        <p className='mt-4'>Twitter: @aapt_granites</p>
+                        <div className="flex items-center justify-center md:justify-start space-x-2 mt-2">
+                            <FaFacebook className="text-white" size={24} /> {/* Facebook Icon */}
+                            <p> Aaptgranites</p>
+                        </div>
+
+                        <div className="flex items-center justify-center md:justify-start space-x-2 mt-4">
+                            <FaYoutube className="text-white" size={24} /> {/* YouTube Icon */}
+                            <p> @aapt_granites</p>
+                        </div>
+
+                        <div className="flex items-center justify-center md:justify-start space-x-2 mt-4">
+                            <FaInstagram className="text-white" size={24} /> {/* Instagram Icon */}
+                            <p> aapt_granites</p>
+                        </div>
+
+                        <div className="flex items-center justify-center md:justify-start space-x-2 mt-4">
+                            <FaTwitter className="text-white" size={24} /> {/* Twitter Icon */}
+                            <p>@aapt_granites</p>
+                        </div>
                     </div>
                 </div>
             </div>

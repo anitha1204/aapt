@@ -6,6 +6,8 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Gallery from './components/Gallery';
 import Products from './components/Products';
+import Blogs from './components/Blogs';
+import BlogsDetails from './components/BlogsDetails';
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/contact" element={<ContactUs/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/products" element={<Products/>} />
+        <Route path="/blogs" element={<Blogs/>} />
+        <Route path="/Blogs/:id" element={<BlogsDetails/>} />
       </Routes>
     </>
   )

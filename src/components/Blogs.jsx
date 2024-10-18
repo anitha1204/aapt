@@ -1,33 +1,48 @@
 import React from "react";
 import Img from "../assets/Banner.png";
-import img1 from "../assets/Group 24.png";
+import BlogsComp from "./Blogs/BlogsComp";
 
 const Blogs = () => {
-    
-  
-    return (
-       <>
-       <section>
 
-        <div>
-            <img src="" alt="" />
-        </div>
-        <div>
-            <p> Aapt Distribution</p>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, repellendus sapiente explicabo similique et vero. Adipisci iure commodi animi, dolor ut earum necessitatibus! Provident beatae, magnam consequatur dignissimos iusto iste!
-        Aliquid rerum aperiam exercitationem non eos, architecto incidunt, consequuntur eaque harum deserunt repellat placeat officiis autem, libero voluptatum ipsam a repellendus molestiae natus deleniti vero tempore. Nam dolores iusto assumenda.
-        Quis temporibus hic, nesciunt ipsum magni pariatur vitae possimus modi, praesentium quae quas consectetur velit repudiandae! Quia iste placeat aliquid sint harum ullam sed soluta. Assumenda porro atque eligendi ipsa?
-        Repudiandae harum pariatur veritatis soluta nemo. Voluptatum, aliquid error inventore tempore rem placeat quidem ipsam sapiente in numquam repellendus eos reprehenderit aperiam, quos eligendi aspernatur nesciunt est non vero repudiandae.
-        Ipsa labore sunt tenetur est minima? Dolorem omnis dolore voluptatum magni. Fugiat debitis atque quas incidunt assumenda voluptatem dignissimos cupiditate, et quod iure facere corporis. Itaque tempore corrupti natus voluptate.
-        Ratione voluptas autem voluptate quaerat, voluptates vel, est, aspernatur labore deleniti ea laudantium. Eius porro iste deserunt dolore mollitia, nobis quis consequuntur aperiam reprehenderit recusandae, dolorem voluptates ad ea aut.
-        Laudantium inventore natus cupiditate officiis excepturi, nulla cum consequatur quisquam perferendis, et aperiam iusto in pariatur autem commodi veritatis quasi! Voluptatem quam omnis ex consequatur doloribus repellendus dolorem velit quos?
-        Blanditiis officiis totam ipsum! Incidunt quidem autem voluptate nihil assumenda dolores tempora quo nostrum delectus, at libero repellat placeat aliquam quaerat doloremque asperiores dolorum facere dignissimos iure ipsa? Corporis, voluptatibus?
-        Provident nostrum delectus quibusdam? Quos ab tempore fugit optio ratione, placeat id! Molestiae molestias voluptate magni, dignissimos similique unde beatae ut illum optio culpa aut incidunt debitis possimus earum animi.
-        Consequuntur, non eos. Voluptatibus fuga repudiandae ipsum corporis consequatur? Quo voluptate, suscipit ipsum magnam error quaerat totam fuga illo et, adipisci, necessitatibus nihil voluptas reiciendis sequi optio? Provident, itaque beatae.</p>
-       </section>
-       
-       </>
+
+    return (
+        <>
+            <section>
+
+
+
+                <div className='relative'>
+                    <img src={Img} alt="" className='h-[300px] md:h-[500px] rounded-xl object-cover opacity-90 w-full' />
+                    {/* <div className="w-full h-[400px] md:h-[500px] absolute flex justify-center items-center top-0 left-0 flex-col backdrop-brightness-50">
+                        <div className='contact grid grid-cols-2'>
+                            <div className='mt-40 mr-20'>
+                                <h1 className="text-3xl md:text-5xl font-bold text-gray-50 text-center">
+                                    Food Way
+                                </h1>
+                            </div>
+                            <div className='ml-15 mt-28'>
+                                <h5 className='font-bold hidden md:block bg-gradient-to-r from-primary transition-all duration-600 text-white px-3 py-1 mb-2'>OUR VISION STATEMENTS</h5>
+                                <h2 className='text-3xl font-bold text-gray-50 mt-3'>Better food for more people</h2>
+                                <p className=' text-gray-50 mt-2'>FOOD WAY & HYPERPURE</p>
+                                <h2 className='text-3xl font-bold text-gray-50 mt-4'>Make India malnutrition free</h2>
+                                <p className='text-gray-50 mt-2'>FEEDING INDIA</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div> */}
+
+                </div>
+                <div className='min-h-[650px] pt-20 '>
+                    <BlogsComp/>
+
+
+                </div>
+
+
+
+            </section>
+
+        </>
     );
 };
 
